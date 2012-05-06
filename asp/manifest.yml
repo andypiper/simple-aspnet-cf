@@ -1,0 +1,13 @@
+---
+applications:
+  .:
+    name: simpleasp
+    url: ${name}.${target-base}
+    framework:
+      name: dotNet
+      info:
+        mem: 128M
+        description: .Net Web Application
+        exec: 
+    mem: 128M
+    instances: 1

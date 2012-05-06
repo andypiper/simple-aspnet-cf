@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp/Default.aspx">
+    <Files>
+      <File FileName="asp/Default.aspx" Line="8" Column="74" />
+      <File FileName="asp/Default.aspx.cs" Line="25" Column="1" />
+      <File FileName="asp/Default.aspx.designer.cs" Line="21" Column="1" />
+      <File FileName="asp/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="asp/Global.asax" Line="1" Column="1" />
+      <File FileName="asp/web.config" Line="15" Column="93" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
