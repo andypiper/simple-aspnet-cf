@@ -1,6 +1,7 @@
 using System;
 using System.Web;
 using System.Web.UI;
+using System.Configuration;
 
 namespace asp
 {
@@ -9,7 +10,15 @@ namespace asp
 	{
 
 		public static int toggleBtn = 0;
-
+		
+		
+		void Page_Load()
+		{
+			// VCAP variables are accessed from web.config
+			// this is a trivial example just to show how to grab a value
+			ipaddr.Text = ConfigurationManager.AppSettings["VCAP_APP_HOST"];
+		}
+		
 		public virtual void button1Clicked (object sender, EventArgs args)
 		{			
 			switch(toggleBtn) {
