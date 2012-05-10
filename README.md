@@ -35,4 +35,4 @@ There are a few things to note in terms of coding and deployment requirements.
 * Uhuru is a .NET runtime, not Mono - so there may be some differences in functionality.
 * there is no console output on Cloud Foundry.
 * Uhuru stores VCAP_* variables in the web.config after deployment so they can be accessed via `ConfigurationManager.AppSettings`
-* this app currently does not support multiple instances as there is no sticky session configuration in order to remain  simple.
+* this app supports multiple instances via JSESSIONID (see web.config)

@@ -16,7 +16,7 @@ namespace asp
 		{
 			// VCAP variables are accessed from web.config
 			// this is a trivial example just to show how to grab a value
-			ipaddr.Text = ConfigurationManager.AppSettings["VCAP_APP_HOST"];
+			ipaddr.Text = ConfigurationManager.AppSettings["VCAP_APP_HOST"] ?? "localhost";
 		}
 		
 		public virtual void button1Clicked (object sender, EventArgs args)

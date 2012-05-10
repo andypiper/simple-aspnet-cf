@@ -10,4 +10,4 @@ applications:
         description: .Net Web Application
         exec: 
     mem: 128M
-    instances: 1
+    instances: 4
